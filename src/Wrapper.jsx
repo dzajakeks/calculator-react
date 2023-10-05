@@ -14,23 +14,23 @@ function Wrapper({
 }) {
   return (
     <main className='bg-neutral-900 grid place-content-center h-screen text-white text-xl '>
-      <div className='rounded-md bg-neutral-700 w-80  '>
+      <div className='rounded-md bg-neutral-700 w-80'>
         {/* output */}
-        <div className='m-2 p-1 bg-neutral-900 rounded-md overflow-hidden'>
-          <span className='mr-1 text-sm'>
+        <div className='m-2 p-4 bg-neutral-900 rounded-md overflow-hidden'>
+          <span className='mr-1 text-base'>
             {result ? '(' + result + ')' : ''}
           </span>
-          <span className='text-2xl'>{calculation}</span>
+          <span className='text-3xl'>{calculation}</span>
         </div>
         {/* input */}
         <div className='m-1 p-1'>
-          <div className='flex flex-row justify-evenly'>
+          <div className='grid grid-cols-5'>
             {symbols.map((symbol, i) => {
               return (
                 <button
                   onClick={() => handleUpdateCalc(symbol)}
                   key={i}
-                  className='btn w-10 bg-zinc-600'
+                  className='btn mb-4 py-3 bg-zinc-600'
                 >
                   {symbol}
                 </button>
@@ -43,7 +43,7 @@ function Wrapper({
                 <button
                   onClick={() => handleUpdateCalc(number)}
                   key={i}
-                  className='btn bg-neutral-800'
+                  className='btn py-3 bg-neutral-800'
                 >
                   {number}
                 </button>

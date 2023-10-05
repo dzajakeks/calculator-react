@@ -48,9 +48,10 @@ const App = () => {
   }
 
   function handleSquareRoot() {
-    console.log(calculation);
-    setResult(calculation);
-    setCalculation(Math.sqrt(eval(calculation).toString()));
+    const squaredResult = Math.sqrt(eval(calculation).toString()).toFixed(4);
+
+    setResult(squaredResult);
+    setCalculation(squaredResult);
   }
 
   return (
