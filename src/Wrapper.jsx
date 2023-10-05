@@ -14,7 +14,7 @@ function Wrapper({
 }) {
   return (
     <main className='bg-neutral-800 grid place-content-center h-screen text-white text-xl '>
-      <div className='rounded-md bg-neutral-700 max-w-sm'>
+      <div className='rounded-md bg-neutral-700 max-w-xs'>
         {/* output */}
         <div className='m-2 p-1 bg-neutral-900 rounded-md overflow-hidden'>
           <span className='mr-1 text-sm'>
