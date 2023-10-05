@@ -13,7 +13,7 @@ function Wrapper({
   handleSquareRoot,
 }) {
   return (
-    <main className='bg-neutral-800 grid place-content-center h-screen text-white text-xl '>
+    <main className='bg-neutral-900 grid place-content-center h-screen text-white text-xl '>
       <div className='rounded-md bg-neutral-700 max-w-xs'>
         {/* output */}
         <div className='m-2 p-1 bg-neutral-900 rounded-md overflow-hidden'>
@@ -30,7 +30,7 @@ function Wrapper({
                 <button
                   onClick={() => handleUpdateCalc(symbol)}
                   key={i}
-                  className='btn w-10'
+                  className='btn w-10 bg-zinc-600'
                 >
                   {symbol}
                 </button>
@@ -43,7 +43,7 @@ function Wrapper({
                 <button
                   onClick={() => handleUpdateCalc(number)}
                   key={i}
-                  className='btn'
+                  className='btn bg-neutral-800'
                 >
                   {number}
                 </button>
@@ -55,7 +55,7 @@ function Wrapper({
             <button onClick={handleDeleteNum} className='btn'>
               Del
             </button>
-            <button onClick={handleClear} className='btn'>
+            <button onClick={handleClear} className='btn bg-red-500'>
               C
             </button>
             <button onClick={handleProcent} className='btn'>
@@ -64,6 +64,7 @@ function Wrapper({
             <button onClick={handleSquareRoot} className='btn'>
               √
             </button>
+            <p className='grid place-content-center'>🤓</p>
           </div>
         </div>
       </div>
