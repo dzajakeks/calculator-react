@@ -24,20 +24,20 @@ function Wrapper({
         </div>
         {/* input */}
         <div className='m-1 p-1'>
-          <div>
+          <div className='flex flex-row justify-evenly'>
             {symbols.map((symbol, i) => {
               return (
                 <button
                   onClick={() => handleUpdateCalc(symbol)}
                   key={i}
-                  className='btn'
+                  className='btn w-10'
                 >
                   {symbol}
                 </button>
               );
             })}
           </div>
-          <div className='grid grid-cols-3'>
+          <div className='grid grid-cols-4'>
             {numbers.map((number, i) => {
               return (
                 <button
