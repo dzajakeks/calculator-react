@@ -9,7 +9,7 @@ Begginer project to 'feel' the art of coding.
 - [Contributing](#contributing)
 
 ## Preview
-https://github.com/dzajakeks/calculator-react/assets/83473422/706b29e9-b278-47ec-a620-6ed81dedadca
+![Untitled video - Made with Clipchamp](https://github.com/dzajakeks/calculator-react/assets/83473422/de26cda4-38da-4a2a-b301-0d40aabe2f8c)
 
 ## About
 Numbers calculator with basic features
