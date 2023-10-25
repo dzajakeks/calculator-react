@@ -1,5 +1,5 @@
 # BasicCalculator
-Begginer project to 'feel' the art of coding. 
+Begginer project to 'feel' the art of coding. https://calc-react-simple.netlify.app
 
 ## Table of Contents
 
